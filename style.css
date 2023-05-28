@@ -1,0 +1,26 @@
+.Jan{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    color:rgb(2, 31, 89);
+}
+
+body{ 
+    background-image: linear-gradient(to left, rgb(200, 192, 181),rgb(99, 132, 175));
+    font-size: 30px;
+}
+
+.bton:hover{
+    transition: 0.5s ease-out;
+    color: rgb(52, 40, 65);
+    background-color: #E6E6FA;
+    transform: scale(1.1);
+    transition:1s; 
+}
+
+.form-control:hover{
+    color: rgb(2, 31, 89);
+    font-size: 20px;
+    font-weight: 500;
+    border-color: rebeccapurple; 
+}
